@@ -5,7 +5,7 @@ body {
     color: #333333;
 }
 
-header {
+.nav {
     background-color: gray;
     color: white;
     text-align: center;
@@ -17,7 +17,7 @@ h1 {
     font-size: 28px;
 }
 
-main {
+.container {
     padding: 25px;
 }
 
@@ -26,11 +26,15 @@ h2 {
     font-size: 32px;
 }
 
-p, section {
+.intro, .table-box {
     background-color: white;
     padding: 18px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.intro p {
+    margin: 0;
 }
 
 h3 {
