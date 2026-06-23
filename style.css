@@ -1,9 +1,60 @@
 body {
     background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333333;
 }
+
 header {
-    background-color: darkblue;
+    background-color: gray;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+p, section {
+    background-color: white;
+    padding: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+}
+
+img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
 }
