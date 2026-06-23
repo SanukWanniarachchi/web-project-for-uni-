@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Rivers in Sri Lanka</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -30,24 +31,39 @@
                     <td>Mahaweli</td>
                     <td>335 km</td>
                     <td>
-                        <img src="mahaweli.jpg" alt="Mahaweli River">
+                        <img src="" alt="Mahaweli River">
                     </td>
                 </tr>
                 <tr>
                     <td>Kelani</td>
                     <td>145 km</td>
                     <td>
-                        <img src="kelani.jpg" alt="Kelani River">
+                        <img src="" alt="Kelani River">
                     </td>
                 </tr>
                 <tr>
                     <td>Kalu River</td>
                     <td>129 km</td>
                     <td>
-                        <img src="kalu.jpg" alt="Kalu River">
+                        <img src="" alt="Kalu River">
                     </td>
                 </tr>
             </table>
+        </div>
+
+        <div class="calculator-box">
+            <h3>River Flow Speed</h3>
+
+            <label>Distance travelled by water (m)</label>
+            <input type="number" id="distance" placeholder="Enter distance">
+
+            <label>Time taken (s)</label>
+            <input type="number" id="time" placeholder="Enter time">
+
+            <button onclick="calculateSpeed()">Calculate Speed</button>
+
+            <p>Use the PHP page to calculate full river flow rate.</p>
+            <a href="river.php">Open River Flow Calculator</a>
         </div>
     </div>
 </body>

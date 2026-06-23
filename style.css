@@ -26,7 +26,7 @@ h2 {
     font-size: 32px;
 }
 
-.intro, .table-box {
+.intro, .table-box, .calculator-box {
     background-color: white;
     padding: 18px;
     border-radius: 5px;
@@ -61,4 +61,40 @@ img {
     width: 140px;
     height: 100px;
     object-fit: cover;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+    display: block;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.result {
+    font-weight: bold;
+    color: darkgreen;
 }
